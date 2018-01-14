@@ -16,21 +16,15 @@
 		      <a class="navbar-brand" href="home.php">My Github Page</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		    <?php
-		      echo '<li class="active"><a href="#">Home</a></li>';
-		      echo '<li><a href="/BasisData/index.php">Basis Data</a></li>;' 		  
-		      echo '<li><a href="/resume/index.php">Resume</a></li>;' 
-		    ?>
+		       <li class="active"><a href="#">Home</a></li>
+		       <li><a href="/BasisData/index.php">Basis Data</a></li> 		  
+		       <li><a href="/resume/index.php">Resume</a></li>
 		    </ul>
 		  </div>
 		</nav>
 
 		<div class="panel-heading">
-            <?php
-				if($_SESSION["user_type"] == "manajer"){
-					echo '<h2>Hello World!</h2>';
-				}
-			?>	
+			<h2>Hello World!</h2>
         </div>
 
 		<footer>			
